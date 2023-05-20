@@ -1,0 +1,27 @@
+.wrapper {
+  margin-bottom: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 3px;
+  &:hover {
+    border-color: #d9d9d9;
+  }
+}
+
+.title {
+  font-weight: 600;
+  &:hover {
+    color: blue;
+  }
+}
+.selected {
+  color: #6de357;
+}
+
+.btn {
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+  }
+}
